@@ -2,10 +2,6 @@ import React from "react";
 
 //create your first component
 export function Carousel() {
-	// $(".carousel").carousel({
-	// 	interval: 2000
-	// });
-
 	return (
 		<div
 			id="carouselExampleIndicators"
@@ -33,6 +29,13 @@ export function Carousel() {
 						src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
 						alt="First slide"
 					/>
+					<div className="carousel-caption d-none d-md-block">
+						<h5>First slide label</h5>
+						<p>
+							Nulla vitae elit libero, a pharetra augue mollis
+							interdum.
+						</p>
+					</div>
 				</div>
 				<div className="carousel-item">
 					<img
@@ -40,6 +43,13 @@ export function Carousel() {
 						src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
 						alt="Second slide"
 					/>
+					<div className="carousel-caption d-none d-md-block">
+						<h5>Second slide label</h5>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit.
+						</p>
+					</div>
 				</div>
 				<div className="carousel-item">
 					<img
@@ -47,6 +57,13 @@ export function Carousel() {
 						src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
 						alt="Third slide"
 					/>
+					<div className="carousel-caption d-none d-md-block">
+						<h5>Third slide label</h5>
+						<p>
+							Praesent commodo cursus magna, vel scelerisque nisl
+							consectetur.
+						</p>
+					</div>
 				</div>
 			</div>
 			<a
